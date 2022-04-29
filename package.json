@@ -1,0 +1,26 @@
+{
+  "name": "trello-js-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "linter": "node ./node_modules/eslint/bin/eslint.js",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiolopezloya/Trello-JS-Tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiolopezloya/Trello-JS-Tests/issues"
+  },
+  "homepage": "https://github.com/sergiolopezloya/Trello-JS-Tests#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "trello": "^0.3.0"
+  }
+}
